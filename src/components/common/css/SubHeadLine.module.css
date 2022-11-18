@@ -1,0 +1,19 @@
+.headline {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.headlineTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 36px;
+}
+.headlineContent {
+  font-size: 28px;
+  margin-top: 6px;
+  font-weight: 400;
+}

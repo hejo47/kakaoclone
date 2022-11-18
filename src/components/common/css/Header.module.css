@@ -1,0 +1,40 @@
+.header {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.headerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+.headerCenter {
+  width: 60%;
+}
+.headerListItem {
+  padding: 2.5vw;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  /* letter-spacing: -0.02em; */
+}
+/* .headerList .headerListItem:hover {
+  color: #333;
+}
+.headerList:hover .headerListItem:hover:not(:focus){
+  color: #aaa;
+} */
+.logo,
+.headerToolList {
+  width: 20%;
+}
+.headerToolIcon {
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
