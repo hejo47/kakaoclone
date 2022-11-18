@@ -13,13 +13,12 @@
     "serve": "^14.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "relaxed-sunflower-09156e.netlify.app",
+  "homepage": "https://hejokakaocloneweb.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "react-scripts deploy"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
