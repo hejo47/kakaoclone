@@ -34,7 +34,12 @@ header {
 .headerList:hover .headerListItem:hover:not(:focus){
   color: #aaa;
 } */
-.logo,
+.logoWrap {
+  width: 20%;
+}
+.logo {
+  width: 100%;
+}
 .headerToolList {
   width: 20%;
 }

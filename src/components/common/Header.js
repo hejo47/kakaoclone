@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <Container className={classes.header}>
-        <Link to="/">
+        <Link to="/" className={classes.logoWrap}>
           <h2 id="logo" className={classes.logo}>
             kakao
           </h2>
