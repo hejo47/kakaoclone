@@ -7,7 +7,7 @@
 .category {
   border-radius: 30px;
   padding: 12px 20px;
-  background: #EEEEEE;
+  background: #eeeeee;
   color: #000;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   font-size: 17px;
 }
 .category.active {
-  background: #1A1A1A;
-  color: #FFF;
+  background: #1a1a1a;
+  color: #fff;
   font-weight: bold;
 }
