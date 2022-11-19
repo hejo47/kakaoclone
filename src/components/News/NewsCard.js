@@ -11,7 +11,7 @@ const NewsCard = (props) => {
           <span className={classes.kind}>{props.kind}</span>
           <span className={classes.newsDate}>{props.date}</span>
         </div>
-        <i class={`ri-menu-line ${classes.menuicon}`}></i>
+        <i className={`ri-menu-line ${classes.menuicon}`}></i>
       </div>
       <div className={classes.newsCardTitle}>
         <p className={classes.newsTitle}>{props.title}</p>

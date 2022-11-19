@@ -70,7 +70,7 @@ const Footer = () => {
         <div className={classes.anotherPage}>
           <span>관련사이트</span>
           <span>
-            <i class="ri-add-line"></i>
+            <i className="ri-add-line"></i>
           </span>
         </div>
         <div className={classes.copy}>
