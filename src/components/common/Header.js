@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <header>
       <Container className={classes.header}>
-        <NavLink to="/" className={classes.logoWrap}>
-          <h2 id="logo" className={classes.logo}>
+        <h2 id="logo" className={classes.logo}>
+          <NavLink to="/" className={classes.logoWrap}>
             kakao
-          </h2>
-        </NavLink>
+          </NavLink>
+        </h2>
         <ul
           id="headerMenuList"
           className={`${classes.headerList} ${classes.headerCenter}`}
