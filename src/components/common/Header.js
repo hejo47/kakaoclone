@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./css/Header.module.css";
 import Container from "../UI/Container";
 
@@ -6,15 +7,19 @@ const Header = () => {
   return (
     <header>
       <Container className={classes.header}>
-        <h2 id="logo" className={classes.logo}>
-          kakao
-        </h2>
+        <Link to="/">
+          <h2 id="logo" className={classes.logo}>
+            kakao
+          </h2>
+        </Link>
         <ul
           id="headerMenuList"
           className={`${classes.headerList} ${classes.headerCenter}`}
         >
           <li className={classes.headerListItem}>카카오</li>
-          <li className={classes.headerListItem}>뉴스</li>
+          <Link to="/news">
+            <li className={classes.headerListItem}>뉴스</li>
+          </Link>
           <li className={classes.headerListItem}>기술과 서비스</li>
           <li className={classes.headerListItem}>약속과 책임</li>
         </ul>
