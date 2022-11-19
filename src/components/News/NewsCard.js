@@ -1,9 +1,12 @@
 import React from "react";
 import classes from "./css/NewsCard.module.css";
+import { Link } from "react-router-dom";
 
 const NewsCard = (props) => {
   return (
+    // <Link to="/news/detail" className={classes.a}>
     <li className={classes.newsCard}>
+      <p>{props.id}</p>
       <div className={classes.newsCardTop}>
         <div className={classes.newCardKind}>
           <i className={`ri-volume-up-fill ${classes.newsicon}`}></i>
@@ -25,6 +28,7 @@ const NewsCard = (props) => {
         <img src={props.src} alt={props.src} className={classes.newsImg}></img>
       </div>
     </li>
+    // </Link>
   );
 };
 

@@ -1,3 +1,5 @@
+.a {
+}
 .newsCard {
   width: calc((100% - 60px) / 3);
   min-width: 297px;

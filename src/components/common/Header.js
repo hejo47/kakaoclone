@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import classes from "./css/Header.module.css";
 import Container from "../UI/Container";
 
@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <header>
       <Container className={classes.header}>
-        <Link to="/" className={classes.logoWrap}>
+        <NavLink to="/" className={classes.logoWrap}>
           <h2 id="logo" className={classes.logo}>
             kakao
           </h2>
-        </Link>
+        </NavLink>
         <ul
           id="headerMenuList"
           className={`${classes.headerList} ${classes.headerCenter}`}

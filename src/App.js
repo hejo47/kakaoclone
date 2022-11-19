@@ -18,6 +18,7 @@ function App() {
         "미디어행사",
         "지속가능경영",
       ],
+      icon: "ri-volume-up-fill",
     },
     {
       name: "오늘의 카카오",
