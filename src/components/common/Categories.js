@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../UI/Container";
 import classes from "./css/Categories.module.css";
 
-const Categories = () => {
+const Categories = (props) => {
   return (
     <Container>
       <ul className={classes.categories}>
