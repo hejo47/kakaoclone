@@ -125,7 +125,6 @@ const NewsCardList = () => {
           {NewsList.map((news) => {
             return (
               <Card
-                id={news.id}
                 key={news.id}
                 title={news.title}
                 kind={news.kind}
