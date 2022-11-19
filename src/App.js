@@ -5,7 +5,6 @@ import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
 import SubHeadLine from "./components/common/SubHeadLine";
 import NewsCardList from "./components/News/NewsCardList";
-import Welcome from "./pages/Welcome";
 
 function App() {
   const menuList = [
